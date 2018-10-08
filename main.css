@@ -1,0 +1,171 @@
+ #page-wrapper {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+#header {
+  font-size: 20px;
+  background-color: hsl(80, 0%, 98%);
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 580px) {
+  #header {
+    display: flex;
+    flex-wrap: wrap;
+    height: 24vh;
+  }
+  .left{
+    display: none;
+  }
+}
+
+#header-img {
+  height: 23vh;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  margin: 0px auto;
+}
+
+#nav-bar {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 23vh;
+  background-color: hsl(80, 0%, 98%);
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media (max-width: 580px) {
+  #nav-bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: 10vh;
+  }
+}
+
+.nav-link {
+  padding: 15px;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+#main {
+  margin: 230px auto;
+  margin-bottom: 0px;
+  width: 70vw;
+  text-align: center;
+  font-size: 18px;
+}
+
+@media (max-width: 580px) {
+  input[type="submit"] {
+    margin-top: 20px;
+  }
+}
+
+input[type="submit"]:hover,
+#btn:hover,
+#btn2:hover,
+#btn3:hover {
+  background-color: rgba(0, 0, 225, 0.5);
+  transition: background-color 1s;
+}
+
+p {
+  margin: 20px auto;
+  padding: 5px;
+}
+
+.product {
+  margin: 150px auto;
+}
+
+.left {
+  float: left;
+  width: 150px;
+  height: 180px;
+}
+
+section {
+  margin-top: 10%;
+  padding: 5px;
+}
+
+#form {
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+}
+
+#price {
+  display: flex;
+  margin: 120px auto;
+  padding: 10px;
+}
+
+@media (max-width: 580px) {
+  #price {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 8px;
+  }
+  .pricehead {
+    background-color: grey;
+  }
+}
+
+@media (max-width: 580px) {
+  #video {
+    width: 70vw;
+    height: 50vh;
+    margin: auto;
+  }
+}
+
+#iphne,
+#ipd,
+#macbook {
+  border-width: 2px;
+  border-style: solid;
+  padding: 2px 25px;
+  margin: 2px auto;
+  border-radius: 5px;
+}
+
+.pricehead {
+  background-color: grey;
+}
+
+footer {
+  background-color: hsl(80, 0%, 90%);
+  margin: 10px auto;
+}
+
+#btn,
+#btn2,
+#btn3 {
+  margin: 20px auto;
+  padding: 8px;
+}
+
